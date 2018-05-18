@@ -2,20 +2,49 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Contacts</h1>
+                <h1>Connect</h1>
+
+<!-- Need to make the connect links equal width. Look into equal width
+columns in Bootstrap 3, in which case the columns must be direct children
+of the row: http://getbootstrap.com/docs/3.3/css/#grid. Or try to do it
+with a ul similar to below. -->
+
+
+                  <ul class="list-inline connect-links">
+                    <li class="list-inline-item col-md-2">
+                      <a href="mailto:rmcquilton@gmail.com" class="btn btn-outline-primary" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                        Email
+                      </a>
+                    </li>
+                    <li class="list-inline-item col-md-2">
+                      <a href="https://github.com/ryannmcq" class="btn btn-outline-primary" target="_blank">
+                        <i class="devicon-github-plain"></i>
+                        GitHub
+                      </a>
+                    </li>
+                    <li class="list-inline-item col-md-2">
+                      <a href="#" class="btn btn-outline-primary" target="_blank">
+                        <i class="fas fa-file-alt"></i>
+                        Resume
+                      </a>
+                    </li>
+                    <li class="list-inline-item col-md-2">
+                      <a href="https://www.linkedin.com/in/ryannmcquilton/" class="btn btn-outline-primary" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                      </a>
+                    </li>
+                    <li class="list-inline-item col-md-2">
+                      <a href="https://medium.com/@ryannmcq" class="btn btn-outline-primary" target="_blank">
+                        <i class="fab fa-medium"></i>
+                        Medium
+                      </a>
+                    </li>
+                  </ul>
+
             </div>
-            <div class="col-md-6 col-sm-12 container-contacts-phone">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <a href="mailto:{{ site.email }}">
-                    {{ site.email }}
-                </a>
-            </div>
-            <div class="col-md-6 col-sm-12 container-contacts-phone">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <a href="tel:{{ site.phone }}">
-                    {{ site.phone }}
-                </a>
-            </div>
+
         </div>
     </div>
 </footer>

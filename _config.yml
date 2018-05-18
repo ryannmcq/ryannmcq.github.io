@@ -1,14 +1,15 @@
 # Site settings
 # in the templates available like {{ site.myvariable }}.
-title: Clean portfolio theme for Jekyll powered by Bootstrap 4.
+title: Software Engineer
 email: your-email@domain.com
-brand: Your Name
-headline: Inventor, Engineer and Futurist
+brand: Ryann McQuilton
+headline: Software Engineer &middot; Los Angeles, CA
 description: > # this means to ignore newlines until "baseurl:"
-  New Site
+  Full-stack software engineering with Ruby, Rails, JavaScript,
+  React, SQL, HTML, CSS and other back-end and front-end technologies.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-copyright: 2016 Whatever Company, Inc. All Rights Reserved.
+url: "https://ryannmcq.github.io/" # the base hostname & protocol for your site
+copyright: 2018 Ryann McQuilton
 
 # Build settings
 markdown: kramdown
@@ -22,4 +23,3 @@ phone: +1-800-555-2016
 
 # Tracking
 googleAnalitycsID: UA-83933844-1
-

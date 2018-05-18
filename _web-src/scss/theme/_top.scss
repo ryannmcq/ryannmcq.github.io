@@ -24,8 +24,8 @@
     }
 
     @include media-breakpoint-up(lg) {
-      width: 320px;
-      height: 320px;
+      // width: 320px;
+      // height: 320px;
     }
   }
 
@@ -39,7 +39,7 @@
 
     @include media-breakpoint-up(lg) {
       padding-top: $spacer;
-      font-size: 4rem;
+      font-size: 3.2rem;
     }
   }
 
@@ -47,6 +47,7 @@
 
   &-headline {
     font-size: 1.5rem;
+    font-weight: lighter;
     margin: 1rem;
     color: $theme-color-main-contrast;
 

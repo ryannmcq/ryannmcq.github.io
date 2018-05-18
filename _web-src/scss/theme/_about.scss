@@ -3,3 +3,36 @@
 .container-about {
   margin-top: $spacer;
 }
+
+.project-links {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.project-link {
+  display: inline-block;
+  margin-right: .75rem;
+}
+
+.project-tech {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.project {
+  margin-top: 1rem;
+}
+
+.tools {
+  text-align: center;
+}
+
+.tools h2 {
+  font-size: 1.25rem;
+  color: darken($theme-color-main-contrast, 50%);
+  font-weight: 100;
+}
+
+.tools p {
+  font-size: 4rem;
+}
