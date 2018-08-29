@@ -1,4 +1,12 @@
-// Block: container-about
+section a {
+  color: $theme-color-main;
+  text-decoration: underline;
+}
+
+footer a {
+  color: darken($theme-color-main, 45%);
+  text-decoration: underline;
+}
 
 .container-about {
   margin-top: $spacer;
