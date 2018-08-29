@@ -6,3 +6,7 @@
   background: $theme-color-main;
   text-align: center;
 }
+
+.container-copyright a {
+  color: darken($theme-color-main, 45%);
+}
