@@ -11,6 +11,10 @@ section a {
   font-size: 120%;
 }
 
+.projects img {
+  max-width: 100%;
+}
+
 .project-links {
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -41,21 +45,27 @@ section a {
   color: inherit;
 }
 
-.tech {
+.skills {
   text-align: center;
 }
 
-.tech h2 {
+.skills h2 {
   font-size: 1.5rem;
   color: darken($theme-color-main-contrast, 50%);
   font-weight: 100;
 }
 
-.tech p {
+.skills p {
   font-size: 3.5rem;
 }
 
-.tech img {
+.skills ul {
+  list-style: none;
+  padding: 0;
+  font-weight: bold;
+}
+
+.skills img {
   max-height: 3.5rem;
   vertical-align: baseline;
 }
