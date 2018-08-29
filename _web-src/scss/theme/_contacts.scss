@@ -36,6 +36,11 @@
   }
   & .list-inline-item {
     padding: 0;
+    margin-right: 0;
+
+    & a {
+      border: none;
+    }
   }
 
   & .btn {
@@ -55,40 +60,4 @@
       color: $theme-color-main;
     }
   }
-}
-
-
-// Block: navbar
-
-.navbar {
-
-  // Element: nav-item
-
-  & .nav-item {
-    cursor: pointer;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-radius: $border-radius-sm;
-    background-color: $theme-color-main;
-    transition: background-color 0.3s ease;
-
-    &:hover {
-      background: $theme-color-main-contrast;
-
-      & > .nav-link {
-        color: $theme-color-main;
-      }
-    }
-
-    .nav-link {
-      color: $theme-color-main-contrast;
-
-      @include media-breakpoint-up(lg) {
-        font-size: 1.5rem;
-        line-height: 3rem;
-      }
-    }
-
-  }
-
 }

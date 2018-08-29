@@ -8,14 +8,14 @@
   position: relative;
 
   @include media-breakpoint-up(lg) {
-    padding-top: 7rem;
+    padding-top: 6rem;
   }
 
   // Element: container-top-image
 
   &-image {
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
     transition: all .3s;
 
     &:hover {
@@ -35,24 +35,23 @@
     @extend .theme-font;
     font-size: 2.5rem;
     padding-top: $spacer / 2;
-    color: darken($theme-color-main, 50%);
+    color: darken($theme-color-main, 45%);
 
     @include media-breakpoint-up(lg) {
-      padding-top: $spacer;
-      font-size: 3.2rem;
+      // padding-top: $spacer;
     }
   }
 
   // Element: container-top-headline
 
   &-headline {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: lighter;
-    margin: 1rem;
+    margin: .7rem;
     color: $theme-color-main-contrast;
 
     @include media-breakpoint-up(lg) {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   }
 }

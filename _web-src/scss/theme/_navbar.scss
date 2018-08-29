@@ -29,9 +29,19 @@
     cursor: pointer;
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-top: .1rem;
     border-radius: $border-radius-sm;
     background-color: $theme-color-main;
     transition: background-color 0.3s ease;
+
+    @include media-breakpoint-down(xs) {
+      width: 100%;
+      background: transparent;
+    }
+
+    & + .nav-item {
+      margin-left: 0;
+    }
 
     &:hover {
       background: $theme-color-main-contrast;
@@ -77,5 +87,4 @@
       opacity: 1;
     }
   }
-
 }

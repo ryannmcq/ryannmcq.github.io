@@ -1,12 +1,12 @@
 # Site settings
 # in the templates available like {{ site.myvariable }}.
 title: Software Engineer
-email: your-email@domain.com
+email: rmcquilton@gmail.com
 brand: Ryann McQuilton
 headline: Software Engineer &middot; Los Angeles, CA
 description: > # this means to ignore newlines until "baseurl:"
-  Full-stack software engineering with Ruby, Rails, JavaScript,
-  React, SQL, HTML, CSS and other back-end and front-end technologies.
+  Full-stack web development with Ruby, Rails, JavaScript, Node,
+  React, SQL, HTML, CSS and other backend and frontend technologies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ryannmcq.github.io/" # the base hostname & protocol for your site
 copyright: 2018 Ryann McQuilton
@@ -18,8 +18,7 @@ markdown: kramdown
 snapwidget: 247552
 
 # Contacts
-email: your.name@gmail.com
-phone: +1-800-555-2016
+email: rmcquilton@gmail.com
 
 # Tracking
 googleAnalitycsID: UA-83933844-1

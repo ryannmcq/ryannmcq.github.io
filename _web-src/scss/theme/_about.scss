@@ -4,6 +4,10 @@
   margin-top: $spacer;
 }
 
+.about {
+  font-size: 120%;
+}
+
 .project-links {
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -19,20 +23,36 @@
   text-align: center;
 }
 
+.project-tech img {
+  max-height: 1.9rem;
+  padding-top: .1rem;
+  vertical-align: baseline;
+}
+
 .project {
   margin-top: 1rem;
 }
 
-.tools {
+.project h2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tech {
   text-align: center;
 }
 
-.tools h2 {
-  font-size: 1.25rem;
+.tech h2 {
+  font-size: 1.5rem;
   color: darken($theme-color-main-contrast, 50%);
   font-weight: 100;
 }
 
-.tools p {
-  font-size: 4rem;
+.tech p {
+  font-size: 3.5rem;
+}
+
+.tech img {
+  max-height: 3.5rem;
+  vertical-align: baseline;
 }
